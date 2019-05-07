@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Pokemon GO</title>
+</head>
+<body background="http://doanarae.com/doanarae/8401-pokemon-desktop-background.png" style=" background-attachment: fixed; background-size: cover;">
+    <h1 style="color:lawngreen;">Pendaftaran POKEMON</h1>
+    <form method="POST" action="http://localhost:5000/data" enctype="multipart/form-data"> 
+        <div class="form-group row">
+            <label for="inputNama" class="col-sm-2 col-form-label">Nama :</label>
+            <div class="col-auto">
+                <input type="text" name="nama" class="form-control" id="inputNama" placeholder="Ketik nama...">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputUsia" class="col-sm-2 col-form-label">Usia :</label>
+            <div class="col-auto">
+                <input type="number" name="usia" class="form-control" id="inpuUsia" placeholder="Ketik usia...">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputFile" class="col-sm-2 col-form-label">Unggah gambar :</label>
+            <div class="col-auto">
+                  <input type="file" name="foto" class="form-control-file" id="inputFile">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Kirim Data</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
