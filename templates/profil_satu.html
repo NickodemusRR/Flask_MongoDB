@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Profil</title>
 </head>
-<body>
-    <h1>Selamat datang di Dunia Pokemon!</h1>
+<body background="http://www.clker.com/cliparts/6/e/a/f/15137509091640585729cartoon-field-background.hi.png" style=" background-attachment: fixed; background-size:cover; ">
+    <center>
+    <h1 style="color:darkmagenta;">{{nama}}</h1>
     <p>Nama: {{nama}}</p>
     <p>Usia: {{usia}}</p>
     <img src="{{foto}}"/>
     <form action="http://localhost:5000/", method="GET">
         <input type="submit" value="Kembali"/>
     </form>
+    </center>
 </body>
 </html>
